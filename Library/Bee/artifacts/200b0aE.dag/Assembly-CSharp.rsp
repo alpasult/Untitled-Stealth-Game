@@ -342,6 +342,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/Player Behaviours/Gravity.cs"
+"Assets/Scripts/Player Behaviours/PlayerMovement.cs"
 -langversion:8.0
 
 /deterministic

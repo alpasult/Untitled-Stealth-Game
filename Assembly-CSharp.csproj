@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Player Behaviours/Gravity.cs" />
+    <Compile Include="Assets/Scripts/Player Behaviours/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

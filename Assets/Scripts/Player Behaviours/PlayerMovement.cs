@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float speed;
-    float movePositionX;
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -16,13 +15,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movePositionX = 0;
-        if (Input.GetKey(KeyCode.D)) {
-            movePositionX += speed;
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            if (Input.GetKey(KeyCode.D))
+            {
+                rb.AddForce(new Vector2(speed, 0));
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                rb.AddForce(new Vector2(-speed, 0));
+            }
         }
-        if (Input.GetKey(KeyCode.A)) {
-            movePositionX -= speed;
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            rb.AddForce(new Vector2(speed, 0));
         }
-        rb.AddForce(new Vector2(movePositionX, 0));
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            rb.AddForce(new Vector2(-speed, 0));
+        }
     }
 }

@@ -59,8 +59,8 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Player Behaviours/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/Player Behaviours/Jumping.cs" />
+    <Compile Include="Assets/Scripts/Player Behaviours/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -2,19 +2,25 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Behaviours/Jumping.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Behaviours/PlayerMovement.cs" Line="29" Column="10" />
-      <File FileName="Assets/Scripts/Player Behaviours/Jumping.cs" Line="19" Column="40" />
+      <File FileName="Assets/Scripts/Player Behaviours/Jumping.cs" Line="22" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Untitled Stealth Game" expanded="True" selected="True" />
+          <Node name="Untitled Stealth Game" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Player Behaviours" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8f46bbe1-1ce0-4b7b-81d3-ca32f9e2d462" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2f1152e3-d062-4c7d-8197-814554ecf2d1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
